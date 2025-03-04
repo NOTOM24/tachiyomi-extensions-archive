@@ -6,7 +6,7 @@ import okhttp3.Request
 import java.text.SimpleDateFormat
 import java.util.Locale
 
-class Manganato : MangaBox("Manganato", "https://manganato.com", "en", SimpleDateFormat("MMM dd,yy", Locale.ENGLISH)) {
+class Manganato : MangaBox("Manganato", "https://www.natomanga.com", "en", SimpleDateFormat("MMM dd,yy", Locale.ENGLISH)) {
     override val id: Long = 1024627298672457456
 
     // Nelo's date format is part of the base class
